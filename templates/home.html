@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Cesarean </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Age :  <input type="number", name='a', placeholder="enter 1", min="18" max="60"> <br><br>
+            Delivey number :  <input type="number", name='b', placeholder="enter 2", min="1" max="5"> <br><br>
+            Delivery status :  <input type="number", name='c', placeholder="enter 3", min="0" max="3"> <br><br>
+            Blood of Pressure : <input type="number", name='d', placeholder="enter 4", min="0" max="3"> <br><br>
+	    Heart Problem : <input type="number", name='e', placeholder="enter 5", min="0" max="2"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+        
+        <img src='static\Front.jpg'>
+    </center>
+
+    </body>
+</html>
